@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team zwei</title>
+</head>
+<body onload="updateView()"></body>
+    
+    
+        <div id="app"></div>
+    
+        <script>
+            function updateView(){
+                const page = model.app.currentPage;
+                if (page === 'search') updateViewSearch();
+                else if (page === 'profile') updateViewProfile();
+                else if (page === 'filmInfo') updateViewFilmInfo();
+                else if (page === 'register') updateViewRegister();
+                else if (page === 'login') updateViewLogin();
+            }
+            
+        </script> 
+
+
+
+
+
+<a href="https://docs.google.com/presentation/d/1nJLUUVsxKPNsASl6CEtnu7K_gDnd80mRrxPHFgTEEhA/edit#slide=id.p"></a>
+
+<script src="model.js"></script>
+
+
+</body>
+</html>

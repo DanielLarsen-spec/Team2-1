@@ -50,7 +50,7 @@ const model = {
       actor: null,
       releaseDate: null,
       productionCountry: null,
-      userSearch: [],  
+      userSearch: [],
     },
   },
   data: {
@@ -69,10 +69,10 @@ const model = {
         favouriteFilm: null,
         following: [],
         followers: [],
-    },
+      },
     ],
     films: [
-        {
+      {
         id: null,
         title: null,
         year: null,
@@ -82,17 +82,55 @@ const model = {
         actor: [],
         director: [],
         description: "",
-        countryOrigin: null,
-        }],
+        countryOrigin: [],
+      },
+    ],
+
+    genres: [
+      "Fantasy",
+      "Action",
+      "Romantic Comedy",
+      "Action and adventure",
+      "Animation",
+      "Comedy",
+      "Drama",
+      "Historical",
+      "Horror",
+      "Science fiction",
+      "Western",
+      "Thriller",
+    ],
+
+    years: [
+      2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012,
+      2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
+    ],
+
+    directors: [
+      "Steven Spielberg",
+      "Quentin Tarantino",
+      "Cristoffer Nolan",
+      "Tim Burton",
+      "George Lucas",
+      "Peter Jackson",
+    ],
+
+    actors: [
+      "Harrison Ford",
+      "Brad Pitt",
+      "Jim Carrey",
+      "Viggo Mortensen",
+      "Christopher Lee",
+      "Arnold Schwarzenegger",
+    ],
+
+    countryOrigin: [
+      "Norway",
+      "Sweden",
+      "Denmark",
+      "United Kingdom",
+      "United States",
+      "Germany",
+    ],
   },
 };
-
-
-
-
-
-
-
-
-
-
